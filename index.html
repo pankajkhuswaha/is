@@ -1,0 +1,117 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Details</title>
+    <style>
+        div#maincontent {
+            height: 100px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: left;
+            color: #08438E;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+        div#heading {
+            text-decoration: bold;
+            text-align: center;
+            margin-top: 80px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: center;
+            color: #08438E;
+            background-color: #CEE2FA;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="heading">Movie Details</div>
+        <div id="maincontent">
+            <script>
+                //Write the code to display the movie details
+                let mdetails={
+                    mname:"Twilight",
+                    mlang:"English",
+                    mrate:4.5
+                }
+                document.getElementById('maincontent').innerHTML =` Movie: ${mdetails.mname} <br>
+                Language: ${mdetails.mlang} 
+                <br>
+                Rating: ${mdetails.mrate}`;
+                
+            </script>
+        </div>
+    </center>
+</body>
+</html> -->
+<!-- ======================2==================== -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Details</title>
+    <style>
+        div#maincontent {
+            height: 150px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: left;
+            color: #08438E;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+        div#heading {
+            text-decoration: bold;
+            text-align: center;
+            margin-top: 80px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: center;
+            color: #08438E;
+            background-color: #CEE2FA;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+        h4 {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="heading">
+            <b>Theatre Drama</b>
+        </div>
+        <div id="maincontent">
+            <h4>Your Ticket Details:</h4>
+            <br>
+            <div id="maininfo"></div>
+            <script>
+                //Write the code to calculate the total price and discounted price for the tickets
+                let tprice=9;
+                let nofticket=prompt("how many seats to booked");
+                nofticket=Number.parseInt(nofticket);
+                let totalcoftic=nofticket*tprice;
+                let discount= totalcoftic-totalcoftic/100*10
+                document.getElementById("maininfo").innerHTML=`Total  number of seats booked:${nofticket} <br>
+                 Total cost of ${nofticket} tickets: $${totalcoftic}<br>
+                 Festive season discount is: 10% <br>
+                 Total cost after discount is: $${discount}
+                 `;
+               
+                // document.getElementById("maininfo").innerHTML=`Total cost of ${nofticket} tickets: $ ${totalcoftic}`;
+            
+            </script>  
+        </div>
+    </center>
+</body>
+</html> -->
+<!-- ===========================3============================ -->
+
